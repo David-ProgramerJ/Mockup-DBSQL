@@ -1,0 +1,158 @@
+.h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.span {
+    color: rgba(0, 80, 234, 255);
+}
+
+.img {
+    max-width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: rgba(0, 80, 234, 255) !important;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    width: 90px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#uno {
+    margin-top: 30px;
+}
+
+#dos {
+    margin-top: 30px;
+}
+
+#tres {
+    margin-top: 30px;
+}
+
+.col-md-4 { 
+    text-align: center;
+    padding: 150px;
+    margin-top: 15px;
+}
+
+.gris {
+    background-color: rgba(128, 128, 128, 0.562);
+    padding: 100px; 
+    border-radius: 5px; 
+}
+
+        /*Parte proyecto 3*/ 
+
+/*Aplicar la imagen de fondo al segundo contenedor*/
+.fondo {
+    background-image: url(Fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+/*Aplicar un fondo azul al tercer div*/
+.fondo-azul{
+    background-color: rgba(0, 89, 255, 0.8);
+}
+/*Modificar color, posicion y letra para el titulo "Acerca de nosotros"*/
+.title-desktop{
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+/*Modificar la posicion de la imagen*/
+.imagen-desktop {
+    margin-top: 120px;
+    text-align: end;
+}
+/*Cambiar el color y espaciado entre los parrafos de la información "Acerca de nosotros"*/
+.texto{
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+
+/*Modifica el tamaño y negrita del parrafo de la informacion de contacto*/
+.text{
+font-size: 22px;
+font-weight: 500;
+}
+
+/*modifica el tamaño y otros estilos del boton de contacto*/
+.ct-asesorias .boton{
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 15px;
+    width: 250px;
+}
+
+        /*Footer and inframe*/
+
+        .formulario {
+            width:100%;
+        }
+
+        .contact-container {
+            max-height: 100%;
+            width:100%;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            padding: 40px;
+        }
+
+        .contact-item i {
+            font-size: 1.5rem;
+        }
+
+        .form-container {
+            background-color: #f1f3f6;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .form-container div {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .btn-primary {
+            background-color: #0052cc;
+            border: none;
+        }
+
+        .container-mapa {
+            width: 100%;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container-mapa iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        @media (min-width: 769px) {
+            .contenedor {
+                margin-bottom:119px;
+            }
+        }        
